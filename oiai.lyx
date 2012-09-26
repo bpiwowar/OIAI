@@ -1,0 +1,675 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{fullpage}
+\end_preamble
+\use_default_options true
+\begin_modules
+fixltx2e
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+The Open Information Access Initiative
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Working Draft
+\end_layout
+
+\begin_layout Abstract
+This document is a draft of the future policy of the Open Information Access
+ Initiative portal, and more generally of open initiatives for research
+ communities.
+ The OIAI is centered around open journal - the "Open Information Access
+ Journal" - and aim at improving reproducibility and good experimental practices
+ in IA.
+\end_layout
+
+\begin_layout Section*
+Authors
+\end_layout
+
+\begin_layout Standard
+B.
+ Piwowarski, with some comments and ideas from H.
+ Zaragoza, G.
+ Dupret, and R.
+ Blanco.
+\end_layout
+
+\begin_layout Section*
+Goals
+\end_layout
+
+\begin_layout Standard
+This document aims at providing guidelines for the future development of
+ the OIAI portal.
+ Everything is open to debate, including the title!
+\end_layout
+
+\begin_layout Section
+Organization
+\end_layout
+
+\begin_layout Standard
+In order to interact with and to manage the OIAI portal, I think that we
+ would need 4 groups of users: 
+\end_layout
+
+\begin_layout Enumerate
+Anonymous readers - anybody can access public material on the website (open
+ papers, discussion, etc.) 
+\end_layout
+
+\begin_layout Enumerate
+Members: people allowed to submit papers, participate to discussions, etc.
+ To participate (submission, discussion), people have to be registered.
+ Registration should be reserved to people already contributing to the Informati
+on Retrieval/Access community.
+ A system of co-optation would allow new people to join in as readers.
+\end_layout
+
+\begin_layout Enumerate
+Reviewers: people allowed to review papers.
+ I am not sure what would be needed to qualify people as "reviewers".
+ As a start, requiring that people have a research position (university,
+ company).
+ Inviting already existing reviewers from conferences, journals could also
+ be an option.
+ Co-optation (from other reviewers) is also possible.
+\end_layout
+
+\begin_layout Enumerate
+Board: people that can take decisions about the development of the portal
+ and when conflicts arise about reviewers, papers, or any material published
+ on the portal.
+ The board would also ensure the promotion of people between from 
+\begin_inset Quotes eld
+\end_inset
+
+anonymous
+\begin_inset Quotes erd
+\end_inset
+
+ up to 
+\begin_inset Quotes eld
+\end_inset
+
+reviewer
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Board members must have an official position.
+\end_layout
+
+\begin_layout Standard
+Other roles might be needed, but it would be good to limit the number of
+ those to a maximum.
+\end_layout
+
+\begin_layout Subsection
+Voting
+\end_layout
+
+\begin_layout Standard
+In order to ensure the representativity, the board should be elected somehow
+ (maybe not in the first year or two).
+ It is important that there is as much transparency in all the processes
+ and that there is no subgroup that could take too much power - this is
+ vital for the long term run.
+\end_layout
+
+\begin_layout Standard
+I would also like that there is no 
+\begin_inset Quotes eld
+\end_inset
+
+head
+\begin_inset Quotes erd
+\end_inset
+
+, but that decision can be validated by any group of board members (random).
+ This could be done by:
+\end_layout
+
+\begin_layout Itemize
+Requiring a certain number of board members to validate a decision (number
+ and/or percentage);
+\end_layout
+
+\begin_layout Itemize
+Making all decisions public.
+ 
+\end_layout
+
+\begin_layout Standard
+Alternatives to control that there is no group of too closely related board
+ members taking decisions are welcomed! For example, ensuring that the sample
+ is representative enough:
+\end_layout
+
+\begin_layout Enumerate
+Different countries and institution
+\end_layout
+
+\begin_layout Enumerate
+No co-authorship (or not much) or same advisor
+\end_layout
+
+\begin_layout Enumerate
+etc.
+\end_layout
+
+\begin_layout Subsection
+Money
+\end_layout
+
+\begin_layout Standard
+In order to get some fundings (after the initial one) to run the server(s)
+ and pay for additional developments and maintenance, there are a few possibilit
+ies:
+\end_layout
+
+\begin_layout Itemize
+Ask for a very small yearly contribution of each member (or organization);
+ 
+\end_layout
+
+\begin_layout Itemize
+Ask for (supra)national recurrent fundings.
+\end_layout
+
+\begin_layout Section
+The open journal
+\end_layout
+
+\begin_layout Standard
+I think the portal should accept 
+\series bold
+any
+\series default
+ publication from its registered members right from the start, where papers
+ can get promoted by various ways: 
+\end_layout
+
+\begin_layout Itemize
+[repository, arXiv like] by reader-sourcing, using S.
+ Mizzaro proposal as a starting point.
+\end_layout
+
+\begin_layout Itemize
+[light reviewing, PLOS-1 like
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+From PLOS website:
+\emph on
+ Fast, efficient, and economical, publishing peer-reviewed research in all
+ areas of science and medicine.
+ The peer review process does not judge the importance of the work, rather
+ focuses on whether the work is done to high scientific and ethical standards
+ and is appropriately described, and that the data support the conclusions.
+ Combining tools for commentary and rating, PLOS ONE is also a unique forum
+ for community discussion and assessment of articles
+\emph default
+.
+\end_layout
+
+\end_inset
+
+] by reviewing ("endorsement"): Authors can ask a paper to be reviewed;
+\end_layout
+
+\begin_layout Itemize
+by the editorial board
+\end_layout
+
+\begin_layout Standard
+Papers would have different statuses (not mutually exclusive):
+\end_layout
+
+\begin_layout Enumerate
+Proposal/ideas: kind of 
+\begin_inset Quotes eld
+\end_inset
+
+I want to work on that but need help
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+State of the art.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Standard (the typical paper: motivation-related works-theory-experiments-conclus
+ion)
+\end_layout
+
+\begin_layout Enumerate
+Validation papers: I have reproduced the model described in this paper and
+ found those results
+\end_layout
+
+\begin_layout Enumerate
+Source code (i.e.
+ kind of enhanced read-me file)
+\end_layout
+
+\begin_layout Enumerate
+Datasets (description + data)
+\end_layout
+
+\begin_layout Standard
+There could be an update policy that specify what happens if a reviewed
+ paper gets updated.
+ I would say that it is merely linked to the original paper, along with
+ comments by the author(s) and can be submitted again if wanted (as any
+ other paper).
+\end_layout
+
+\begin_layout Subsection
+Archive
+\end_layout
+
+\begin_layout Standard
+Reader-sourcing (proposed by S.
+ Mizzaro http://www.readersourcing.org): automatic scoring system where readers
+ give a score to each paper.
+ To put is shortly, the closer the score to the mean, the better the rating
+ of the reader.
+ 
+\end_layout
+
+\begin_layout Subsection
+Open Journal
+\end_layout
+
+\begin_layout Standard
+The reviewing process should be only loosely connected to the board members.
+\end_layout
+
+\begin_layout Standard
+Each reviewer would be associated to some IR area(s) of expertise
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The ACM 2012 classification system could be used (provided it is freely
+ usable).
+ See 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.acm.org/about/class/2012
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ and to a set of people or institutions with whom this person has conflicts
+ of interests.
+ This would be a public information.
+ 
+\end_layout
+
+\begin_layout Standard
+When a paper is submitted, any (meta-)reviewer associated with the paper
+ main areas could ask to review the paper.
+ Reviewing should be very fast (1 week) so that accepting a paper for review
+ means 
+\begin_inset Quotes eld
+\end_inset
+
+I can review it now
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The reviewing process would be lighter than that of a journal, i.e.
+ it should be more a safety check:
+\end_layout
+
+\begin_layout Itemize
+Is the information correct? 
+\end_layout
+
+\begin_layout Itemize
+Could the experiments be reproduced?
+\end_layout
+
+\begin_layout Standard
+Papers with innovative ideas could be submitted for promotion to the open
+ journal.
+\end_layout
+
+\begin_layout Standard
+There would be a pool of reviewers and meta-reviewers (taking the decision)
+ that would be associated to IR areas and that could select a paper to review.
+ The review process should be very fast (e.g.
+ a reviewer has one week) and light (i.e.
+ the check is for correctness).
+ There are only three outcomes: conditional promotion, promote or not.
+ In case of 
+\begin_inset Quotes eld
+\end_inset
+
+conditional
+\begin_inset Quotes erd
+\end_inset
+
+ the set of comments to address should be stated clearly by the meta-reviewer
+ that would ensure that changes are made (maybe by asking the original reviewer(
+s) to check).
+\end_layout
+
+\begin_layout Standard
+Some part of the reviews could be public - and even not anonymous?
+\end_layout
+
+\begin_layout Standard
+In order to give some incentive to review, reviewing could be done using
+ a system of credits (virtual currency) where you get have to pay in order
+ to be reviewed.
+ Examples:
+\end_layout
+
+\begin_layout Itemize
+Reviewing one paper gives 1 credit;
+\end_layout
+
+\begin_layout Itemize
+Getting reviewed costs 4 credits (3 reviewers + one meta);
+\end_layout
+
+\begin_layout Itemize
+Being late in reviewing costs one credit;
+\end_layout
+
+\begin_layout Itemize
+Maybe some other responsibilities can associated to credit?
+\end_layout
+
+\begin_layout Standard
+The editorial board, if asked by the reviewers, can promote a paper into
+ the electronic journal and be published in a special form - an electronic
+ issue (starting with a quarterly edition?).
+ Special editions could also be edited by members (from reviewer or board
+ members).
+ 
+\end_layout
+
+\begin_layout Subsection
+External promotion
+\end_layout
+
+\begin_layout Standard
+A great thing would be to promote to an existing conference (see e.g PVLDB
+ that works like a journal where some papers can be presented at the conference).
+ Maybe we could start by having a few posters in each big conference (SIGIR,
+ CIKM, WSDM, ECIR, ICTIR, OAIR).
+\end_layout
+
+\begin_layout Section
+Reproducibility and openness
+\end_layout
+
+\begin_layout Standard
+In order to increase the reproducibility of papers, and to allow people
+ to discuss, the portal would
+\end_layout
+
+\begin_layout Itemize
+Use a placeholder for any paper from main publishers (ACM, Springer, etc.)
+ or public archives (arXiv, etc.)
+\end_layout
+
+\begin_layout Itemize
+Associate each paper to its authors that can thus participate to the discussion
+ about the paper
+\end_layout
+
+\begin_layout Itemize
+Link papers (and more generally resources) between themselves so that it
+ is easy to browse the repository of papers.
+ I think the type of links should be restricted if one wants to do something
+ easily with it:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+extension of a work
+\end_layout
+
+\begin_layout Itemize
+validation
+\end_layout
+
+\begin_layout Itemize
+contradiction
+\end_layout
+
+\begin_layout Itemize
+alternative
+\end_layout
+
+\begin_layout Itemize
+implements
+\end_layout
+
+\begin_layout Itemize
+use dataset
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Resources can be associated to papers (code, links, etc.)
+\end_layout
+
+\begin_layout Standard
+The goal is that papers can be discussed at length on the website, comments
+ and remarks being archived for future use.
+\end_layout
+
+\begin_layout Subsection
+Enhancing reproducibility
+\end_layout
+
+\begin_layout Standard
+In order to enhance reproducibility, it would be good to standardize (somehow)
+ experimental practices, and to have an easy way to see what's implemented
+ and, if possible, to run experiments in a short amount of time in order
+ to 
+\end_layout
+
+\begin_layout Description
+Source
+\begin_inset space ~
+\end_inset
+
+repository As for papers, version repositories (svn, git) of code corresponding
+ to papers could be open.
+ Comments and updates (especially with git) can be easily shared.
+ 
+\end_layout
+
+\begin_layout Description
+Common
+\begin_inset space ~
+\end_inset
+
+standards The idea here would be to describe how the processed (or unprocessed,
+ e.g.
+ documents) information is presented so that chains can be easily implemented
+ (if everybody uses the same format, or set of formats).
+ Converters between formats would ease bridging the gaps.
+\end_layout
+
+\begin_layout Description
+Experimental
+\begin_inset space ~
+\end_inset
+
+manager It is possible to describe experimental components and experiments
+ using an experiment manager that automates experiments, e.g.
+ experimaestro - http://experimaestro.sourceforge.net/.
+ An experimental plan can for example be collection.id=trec.1/adhoc,trec.2/adhoc
+ * model=BM25 * model.k1=0.8,1,1.2
+\end_layout
+
+\begin_layout Description
+Databases Have an easy way to describe standard (e.g.
+ TREC-like) collections when possible.
+ For example, ir.collections, https://github.com/bpiwowar/ircollections, describes
+ ad-hoc collections and automates some processing (building up the list
+ of files, downloading topics and assessments).
+ 
+\end_layout
+
+\begin_layout Standard
+An alternative is to directly report past results.
+ At least two websites/pages report results of common algorithms on standard
+ databases:
+\end_layout
+
+\begin_layout Itemize
+IREval (Sistematic evaluation sistems on TREC collections): http://wice.csse.unime
+lb.edu.au:15000/evalweb/ireval/ 
+\end_layout
+
+\begin_layout Itemize
+http://barcelona.research.yahoo.net/dokuwiki/doku.php?id=baselines
+\end_layout
+
+\begin_layout Standard
+I guess a wiki would be a good choice here in order to have the information
+ easily accessible.
+ This is the main bottleneck when trying to compare to previous models.
+\end_layout
+
+\begin_layout Section
+Misc 
+\end_layout
+
+\begin_layout Standard
+Finally data should be open as much as possible: people should be able to
+ access easily (and download) all their data in order to lock people in
+ a system (e.g.
+ all the researcher community website that appear).
+ This would be enforced by the definition of an interchange format for any
+ content published on the website (publications, comments, reviews).
+ 
+\end_layout
+
+\begin_layout Standard
+The data also has to be stored in a distributed manner (network of university
+ servers?) so that we don't loose any data.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+GitLab
+\end_layout
+
+\begin_layout Plain Layout
+http://gitlabhq.com
+\end_layout
+
+\begin_layout Standard
+Drupal links
+\end_layout
+
+\begin_layout Standard
+GitHub connect - http://drupal.org/project/github_connect
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Links
+\end_layout
+
+\end_body
+\end_document
