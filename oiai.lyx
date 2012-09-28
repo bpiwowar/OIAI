@@ -90,11 +90,12 @@ Authors
 \end_layout
 
 \begin_layout Standard
-B.
- Piwowarski, with some comments and ideas from H.
+Here is the list of contributors, by order of appearance: B.
+ Piwowarski, H.
  Zaragoza, G.
- Dupret, and R.
- Blanco.
+ Dupret, R.
+ Blanco, F.
+ Silvestri 
 \end_layout
 
 \begin_layout Section*
@@ -104,7 +105,82 @@ Goals
 \begin_layout Standard
 This document aims at providing guidelines for the future development of
  the OIAI portal.
- Everything is open to debate, including the title!
+ Everything is open to debate, including the name!
+\end_layout
+
+\begin_layout Section
+Motivation
+\end_layout
+
+\begin_layout Standard
+Here I describe the general motivation for developing such a portal and
+ why would people be attracted by such an initiative.
+\end_layout
+
+\begin_layout Paragraph
+Evolving papers
+\end_layout
+
+\begin_layout Standard
+What we think could attract people with that respect is to ensure that the
+ OIAI portal allows people to work their papers in it, from a draft to a
+ full journal (which could be the OIAI journal once a searcher's evaluation
+ takes into account open journals) or a conference paper.
+ In that case, the reviewing process would be a way to force people to make
+ comments about a paper and to propose the evolution of the paper within
+ the OIAI hierarchy (to be defined more precisely: draft, checked paper,
+ journal paper).
+\end_layout
+
+\begin_layout Standard
+Here could be a workflow: 
+\end_layout
+
+\begin_layout Itemize
+a draft with an idea is submitted; it is broadcasted to people interested
+ in the topic area to (if needed) form a team
+\end_layout
+
+\begin_layout Itemize
+the paper evolves : experiments, theory, etc.
+ 
+\end_layout
+
+\begin_layout Itemize
+the authors ask for a review of the paper : loop until the paper is of sufficien
+t quality to be promoted, either to big conferences (where the history of
+ the paper, in terms of reviewing, could be given), or to a journal - ideally
+ the OIAI journal
+\end_layout
+
+\begin_layout Standard
+A side effect is that (like in arXiv) people would be allowed to cite papers
+ and participate in papers that are not "published".
+ And if the site is really central (I mean, used by a good part of the community
+), it would be a repository of papers where plagiarism could be checked.
+\end_layout
+
+\begin_layout Standard
+The advantages would be: - with respect to conferences: a much smoother
+ "reviewing" process - with respect to journals: the fact that work is disclosed
+ from the start - with respect to arXiv: the possibility that a paper be
+ promoted
+\end_layout
+
+\begin_layout Paragraph
+Community
+\end_layout
+
+\begin_layout Standard
+The second important aspect will be reached if enough people go to the website:
+ having the possibility to comment and discuss around papers and ideas,
+ to find code and datasets made available by authors, will be a real incentive
+ for people to use and participate in the life of the portal.
+ However, I think that the "evolving papers" concept is much more important
+ because this kind of community website already exists, so it would only
+ make sense when people already have an incentive to go to the website.
+ However, it is part of the how easily a paper could "evolve", so it is
+ an essential tool to provide.
 \end_layout
 
 \begin_layout Section
@@ -654,11 +730,11 @@ GitLab
 http://gitlabhq.com
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Drupal links
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 GitHub connect - http://drupal.org/project/github_connect
 \end_layout
 
@@ -668,7 +744,100 @@ GitHub connect - http://drupal.org/project/github_connect
 \end_layout
 
 \begin_layout Section
-Links
+Technical bits
+\end_layout
+
+\begin_layout Subsection
+Annotations
+\end_layout
+
+\begin_layout Section
+Emails
+\end_layout
+
+\begin_layout Subsection
+Members
+\end_layout
+
+\begin_layout Standard
+Georges Dupret
+\end_layout
+
+\begin_layout Quote
+We might also unfortunately need a process to kick reviewers/members out
+ if necessary.
+ 
+\end_layout
+
+\begin_layout Subsection
+Voting
+\end_layout
+
+\begin_layout Standard
+Georges Dupret
+\end_layout
+
+\begin_layout Quote
+If the board is elected and decisions are public, there shouldn't be too
+ much issues regarding a small group confiscating power.
+ Anyway, what about the requirement that 25% or 33% of the board be renewed
+ each year? i.e.
+ 3 or 4 years tenure without the possibility of being reelected.
+ 
+\end_layout
+
+\begin_layout Subsection
+Social annotations
+\end_layout
+
+\begin_layout Standard
+Fabrizio Silvestri
+\end_layout
+
+\begin_layout Quote
+I would also consider the possibility for Members to "annotate" the paper.
+ Instead of reviewing it, I would open the paper for annotations.
+ It would be great if one could even answer to a note (as it is currently
+ possible in Google Docs) 
+\end_layout
+
+\begin_layout Subsection
+Reviewing process
+\end_layout
+
+\begin_layout Standard
+Georges Dupret
+\end_layout
+
+\begin_layout Quote
+It would be nice to have to whole paper production process in one place.
+ When I start writing a paper with smbody, then the oiai offers a place
+ where the draft can be stored, a versioning system is available and privacy
+ can be maintained (github?).
+ When the paper takes form, I could invite some reviewers / public comments,
+ etc.
+\end_layout
+
+\begin_layout Standard
+Georges Dupret
+\end_layout
+
+\begin_layout Quote
+Promotion? If the system is good enough that it can compete with easychair
+ for the review process, we can certainly imagine that it be adopted by
+ some big conference.
+ 
+\end_layout
+
+\begin_layout Standard
+Georges Dupret
+\end_layout
+
+\begin_layout Quote
+could we think of a process where reviewing is public, but there are no
+ recommendation from the reviewer, only comments.
+ Then the "promote" decision is made anonymously by somebody else.
+ 
 \end_layout
 
 \end_body
